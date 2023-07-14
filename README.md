@@ -13,7 +13,7 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 1. Clone this repository:
 
-<code> git clone <repository-url> </code>
+<code> git clone <repository-url> </code> <br>
 cd <repository-directory>
 Update the variables.tf file with your desired configuration.
 
@@ -41,11 +41,6 @@ IAM Role Policy Attachments:
 AWSElasticBeanstalkWebTier
 AWSElasticBeanstalkWorkerTier
 AWSElasticBeanstalkMulticontainerDocker
-License
-This code is licensed under the MIT License.
 
 
-You can copy the above Markdown content and save it in a file named `README.md` in your GitHub repository. Feel free to modify the content and structure to match your specific needs.
-
-
-
+**Feel free to modify the content and structure to match your specific needs.**
