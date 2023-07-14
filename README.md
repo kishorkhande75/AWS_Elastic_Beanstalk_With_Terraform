@@ -13,23 +13,24 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 1. Clone this repository:
 
-
-git clone <repository-url>
+<code> git clone <repository-url> </code>
 cd <repository-directory>
 Update the variables.tf file with your desired configuration.
 
-Initialize the Terraform workspace:
+2. Initialize the Terraform workspace:
 
-terraform init
-Review the plan to see the resources that will be created:
+- terraform init
 
-terraform plan
-Apply the Terraform configuration to create the resources:
+3. Review the plan to see the resources that will be created:
 
-terraform apply
-Clean up the resources when no longer needed:
+- terraform plan
 
-terraform destroy
+4. Apply the Terraform configuration to create the resources:
+
+- terraform apply
+5. Clean up the resources when no longer needed:
+
+- terraform destroy
 
 # Resources
 
