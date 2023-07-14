@@ -13,7 +13,7 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 1. Clone this repository:
 
-```shell
+
 git clone <repository-url>
 cd <repository-directory>
 Update the variables.tf file with your desired configuration.
