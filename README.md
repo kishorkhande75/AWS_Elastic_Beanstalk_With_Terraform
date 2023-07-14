@@ -17,7 +17,7 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 <code>cd <em>repository-directory</em><br>
 Update the variables.tf file with your desired configuration.
 
-2. **Initialize the Terraform workspace:**
+#### 2. **Initialize the Terraform workspace:**
 - terraform init
 3. Review the plan to see the resources that will be created:
 
