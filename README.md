@@ -11,7 +11,7 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 ## Usage
 
-1. Clone this repository:
+1. **Clone this repository:**
 
     <code>git clone https://github.com/kishorkhande75/AWS_Elastic_Beanstalk_With_Terraform.git</code>
 
@@ -22,17 +22,17 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 2. **Initialize the Terraform workspace:**
     - <code>terraform init</code>
 
-3. Review the plan to see the resources that will be created:
+3. **Review the plan to see the resources that will be created:**
 
-    - terraform plan
+    - <code>terraform plan</code>
 
-4. Apply the Terraform configuration to create the resources:
+4. **Apply the Terraform configuration to create the resources:**
 
-    - terraform apply
+    - <code>terraform apply</code>
 
-5. Clean up the resources when no longer needed:
+5. **Clean up the resources when no longer needed:**
 
-    - terraform destroy
+    - <code>terraform destroy</code>
 
 # Resources
 
