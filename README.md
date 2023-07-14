@@ -11,9 +11,12 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 ## Usage
 
-1. lone this repository:
+1. Clone this repository:
+
 <code>git clone https://github.com/kishorkhande75/AWS_Elastic_Beanstalk_With_Terraform.git</code>
+
 <code>cd <em>repository-directory</em> </code>
+
 Update the variables.tf file with your desired configuration.
 
 2. Initialize the Terraform workspace:
