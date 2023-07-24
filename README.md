@@ -1,4 +1,4 @@
-# AWS_Elastic_Beanstalk_With_codecommit_and_pipeline_Terraform
+# AWS_Elastic_Beanstalk_With_Terraform
 
 # AWS Elastic Beanstalk Resources
 
@@ -13,7 +13,7 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
 
 1. **Clone this repository:**
 
-    <code>git clone https://github.com/kishorkhande75/AWS_Elastic_Beanstalk_With_codecommit_and_pipeline_Terraform.git</code>
+    <code>git clone https://github.com/kishorkhande75/AWS_Elastic_Beanstalk_With_Terraform.git</code>
 
     <code>cd <em>repository-directory</em> </code>
 
@@ -35,7 +35,9 @@ This repository contains Terraform code to provision AWS Elastic Beanstalk resou
     - <code>terraform destroy</code>
 
 # Resources
+
     This Terraform code provisions the following AWS Elastic Beanstalk resources:
+
     IAM Role: aws-elasticbeanstalk-ec2-role
     IAM Role Policy Attachments:
     AWSElasticBeanstalkWebTier

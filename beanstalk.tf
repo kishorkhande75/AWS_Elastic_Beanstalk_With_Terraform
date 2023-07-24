@@ -1,15 +1,21 @@
-
-# Create an Elastic Beanstalk application
-resource "aws_elastic_beanstalk_application" "my_app" {
-  name        = "MyEBAApplication" # Replace with your desired application name
-  description = "My Elastic Beanstalk Application"
+resource "aws_iam_instance_profile" "instance_profile" {
+  name = "example_instance_profile"
+  role = aws_iam_role.elasticbeanstalk_ec2_role.name
+  # Include any other necessary configuration for the instance profile
 }
 
-# Create an Elastic Beanstalk environment
-resource "aws_elastic_beanstalk_environment" "my_env" {
-  name                = "MyEBAEnvironment" # Replace with your desired environment name
-  application         = aws_elastic_beanstalk_application.my_app.name
-  solution_stack_name = "64bit Amazon Linux 2 v5.8.2 running Node.js 18" # Change to your desired stack
+
+
+# Create an Elastic Beanstalk application
+resource "aws_elastic_beanstalk_application" "beanstalk_application" {
+  name        = "beanstalk_application" # Change to your desired application name
+  description = "Example Elastic Beanstalk Application"
+}
+
+resource "aws_elastic_beanstalk_environment" "beanstalk_environment" {
+  name                = "my-beanstalk-environment"
+  application         = aws_elastic_beanstalk_application.beanstalk_application.name
+  solution_stack_name = "64bit Amazon Linux 2 v5.8.2 running Node.js 18"
 
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
